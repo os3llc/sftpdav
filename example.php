@@ -44,7 +44,7 @@ else {
 
 	$server = new DAV\Server($dir);
 
-	$server->setBaseUri('/sftp/index.php');
+	$server->setBaseUri('/sftp/index.php/');
 
 	$lockBackend = new DAV\Locks\Backend\File('/tmp/dav.locks');
 	$server->addPlugin(new DAV\Locks\Plugin($lockBackend));
