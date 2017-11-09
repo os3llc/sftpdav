@@ -9,3 +9,13 @@ translations between WebDAV and SFTP.  Feel free to contribute and submit
 Pull Requests for it, if you like, or take it and use it.
 
 This is licensed under the Apache 2.0 license.
+
+# Usage
+
+The example.php file provides an example of how to use the library along with
+sabre/dav.  You'll need composer installed in order to download the sabre/dav
+packages - a composer.json file is also provided, here, to pull in those
+depenencies, which can be used with either a local or system install of
+composer.  For installation instructions for composer, see:
+
+https://getcomposer.org
